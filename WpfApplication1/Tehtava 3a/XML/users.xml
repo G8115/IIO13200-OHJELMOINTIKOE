@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfUsers>
+  <User>
+    <Name>Pertti</Name>
+    <Password>Salasana</Password>
+  </User>
+  <User>
+    <Name>Sauli</Name>
+    <Password>Salasana</Password>
+  </User>
+  <User>
+    <Name>Musti</Name>
+    <Password>Salasana</Password>
+  </User>
+  <User>
+    <Name>Iivo</Name>
+    <Password>Salasana</Password>
+  </User>
+  <User>
+    <Name>Tero</Name>
+    <Password>Salasana</Password>
+  </User>
+  <User>
+    <Name>Ville</Name>
+    <Password>Salasana</Password>
+  </User>
+</ArrayOfUsers>

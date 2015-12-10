@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava 1b", "WpfApplication1\Tehtava 1b.csproj", "{AFCCE2FD-0EAF-41D8-BEF5-A8A17775AA1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava 2WPF", "Tehtava 2WPF\Tehtava 2WPF.csproj", "{749C9C40-C9C2-4AA1-A921-C40DE0B9FABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava 3a", "Tehtava 3a\Tehtava 3a.csproj", "{320345A6-1083-4997-BE9D-5262C0B5A26A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFCCE2FD-0EAF-41D8-BEF5-A8A17775AA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCCE2FD-0EAF-41D8-BEF5-A8A17775AA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCCE2FD-0EAF-41D8-BEF5-A8A17775AA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCCE2FD-0EAF-41D8-BEF5-A8A17775AA1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749C9C40-C9C2-4AA1-A921-C40DE0B9FABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749C9C40-C9C2-4AA1-A921-C40DE0B9FABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749C9C40-C9C2-4AA1-A921-C40DE0B9FABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749C9C40-C9C2-4AA1-A921-C40DE0B9FABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320345A6-1083-4997-BE9D-5262C0B5A26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320345A6-1083-4997-BE9D-5262C0B5A26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320345A6-1083-4997-BE9D-5262C0B5A26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320345A6-1083-4997-BE9D-5262C0B5A26A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

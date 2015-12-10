@@ -1,0 +1,21 @@
+﻿<Window x:Class="Tehtava_2WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tehtava_2WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="555.5" Width="978">
+    <Grid>
+        <DataGrid x:Name="dgCountries" IsReadOnly="True" ItemsSource="{Binding}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="479" Width="773" Margin="0,37,0,0" />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="778,37,0,0" TextWrapping="Wrap" Text="Number of countries" VerticalAlignment="Top" Width="182"/>
+        <TextBlock x:Name="txtNumbOfC" HorizontalAlignment="Left" Margin="778,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="26" Width="182"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="778,89,0,0" TextWrapping="Wrap" Text="Total Population" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtTotalPop" HorizontalAlignment="Left" Margin="778,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="172"/>
+        <TextBox x:Name="txtNameSort" HorizontalAlignment="Left" Height="23" Margin="0,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="146" TextChanged="txtNameSort_TextChanged"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="0,-2,0,0" TextWrapping="Wrap" Text="filter by name" VerticalAlignment="Top"/>
+        <Button x:Name="btnPOP" Content="Get top 10 highest population" HorizontalAlignment="Left" Margin="778,161,0,0" VerticalAlignment="Top" Width="182" Click="btnPOP_Click"/>
+        <Button x:Name="btnAREA" Content="Get top 10 highest land area" HorizontalAlignment="Left" Margin="778,188,0,0" VerticalAlignment="Top" Width="182" Click="btnAREA_Click"/>
+
+    </Grid>
+</Window>
